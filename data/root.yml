@@ -1,0 +1,20 @@
+company: Root Insurance
+location: Columbus, Ohio
+department: Engineering
+start: July 2017
+end: Aug 2021
+positions:
+  - title: Senior Engineering Manager
+    tasks:
+      - Maintained insight and ensured the progress of four engineering teams' deliverables.
+      - Coached directly and through other leaders the 25+ engineers in my organization.
+      - Implemented multiple processes that minimized redundant work, ensured critical issues were addressed, and balanced immediate and long-term needs.
+      - Set the technical direction and vetted overall architecture improvements within my functional group.
+  - title: Engineering Lead
+    tasks:
+      - Lead the team that implemented our in-house claims system and imported existing claims from an external vendor in a three-month window.
+      - Oversaw the work and reviewed the code of members of my team during the weekly sprint cycles.
+      - Triaged bugs and maintained systems during the weekly rotations.
+  - title: Senior Software Developer
+    tasks:
+      - Implemented features across the full stack, from the Rails backend systems through to the React client-side application.

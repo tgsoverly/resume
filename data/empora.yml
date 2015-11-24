@@ -1,0 +1,12 @@
+company: Empora Title
+location: Columbus, Ohio
+department: Engineering
+start: Aug 2021
+end: Present
+positions:
+  - title: Director of Engineering
+    tasks:
+      - Evolved a minimal viable product from launch to a reliably maintained and deployed application.
+      - Directly developed features in partnership with Product Managers.
+      - Made and implemented key decisions to migrate backend systems to increase developer productivity.
+      - Implemented core team processes including interviews, retros, code reviews, standups, and showcases.

@@ -1,0 +1,26 @@
+company: SPIDAWeb LLC
+location: Gahanna, Ohio
+department: Software Development and Analysis Engineering
+start: August 2007
+end: July 2017
+positions:
+  - title: Web Developer
+    tasks:
+      - Designed and programmed multicomponent service-oriented web applications using various frameworks and design patterns.
+      - Wrapped external web services into common interfaces for modular designs.
+      - Diagnosed and tuned large datastores for sub-second response times.
+      - Installed and supported containerized deployments inside corporate and cloud environments.
+  - title: Desktop Developer
+    tasks:
+      - Involved in all aspects of the development of the company's primary desktop application, including design, development, and testing.
+      - Wrote a finite element analysis package, that accounted for geometric non-linearities, catenary wires, pre-stressed components, and temperature effects to determine loading and stresses in utility pole structures.
+  - title: Head of Software Development
+    tasks:
+      - "Managed the team responsible for the development, maintenance, and support of the company's software products."
+      - Served as the primary technical contact for internal design processes and external customer interactions.
+      - Implemented continuous integration testing, code review, and feature development cycles to support a more robust development process.
+
+  # TODO Thinking of more descriptive sentences:
+  # - Developed a finite element package for the the analysis of utility structures that included both linear and geometricically non-linear methods.  This package additionally modeled catenary wires, pre-stressed components, temperature affects, wind forces, ice loading and national standards to determine the total stresses in the system to determine factors of safety.
+  # - The primary architect for multicomponent service-oriented web applications in various framework. These applications made use of server-side MVC, client-side MVVM, relational and no-sql back-ends.
+  # - Managed the development team that was responsible for the development, maintenance and support of the company's software products.  Implemented with this team  a software process that included daily standup's, consistant code review, continuous integration, security reviews and repeatable automated deployments.

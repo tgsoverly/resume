@@ -1,0 +1,11 @@
+company: Los Alamos National Laboratory
+location: Los Alamos, New Mexico
+department: Engineering Institute
+start: May 2006
+end: July 2007
+positions:
+  - title: Graduate Research Assistant
+    tasks:
+      - Designed, built, and tested small electronic devices for use in structural health monitoring applications.
+      - Programmed in MATLAB and C to control external hardware for data acquisition and analysis.
+      - Developed a sensor diagnostic algorithm for use with piezoelectric sensor/actuators and implemented it in software.

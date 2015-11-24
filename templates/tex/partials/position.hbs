@@ -1,0 +1,13 @@
+\begin{tabular*}{6.75in}{@{\extracolsep{\fill}}lr}
+\textbf{ {{company}} } & \textbf{ {{location}} }\\
+\textit{ {{department}} } & \textit{ {{start}} -- {{end}} }\\
+\bottomrule
+\end{tabular*}
+{{#each positions as |position|}}
+  {{position.title}}
+  \begin{compactitem}
+  {{#each position.tasks}}
+    \item {{{this}}}
+  {{/each}} \medskip
+  \end{compactitem}
+{{/each}}
