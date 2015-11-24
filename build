@@ -1,0 +1,10 @@
+latexmk cv.tex
+latexmk development.tex
+latexmk research.tex
+rm *.aux
+rm *.bbl
+rm *.blg
+rm *.log
+rm *.out
+rm *.fdb_latexmk
+rm *.fls
