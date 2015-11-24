@@ -1,0 +1,55 @@
+\documentclass[11pt]{article}
+                                                                      
+\usepackage[left=.95 in,top=1in,right=.75in]{geometry}
+\usepackage{listliketab}
+\usepackage{multibib}
+\usepackage{hyperref}
+\usepackage{sectsty}
+\usepackage{mathpazo}
+\usepackage{color}
+
+\usepackage[neverdecrease]{paralist}
+\newcites{journal}{Journals}
+\newcites{conference}{Conference Proceedings}
+\newcites{abstract}{Abstract Only}
+\setlength{\textheight}{9.25in}
+\setlength{\textwidth}{6.5in}
+\setlength{\parindent}{0in}
+\setlength{\parskip}{0pt}
+\setlength{\itemsep}{0pt}
+\setlength{\intextsep}{0pt}
+\setlength{\partopsep}{0pt}
+\setlength{\floatsep}{0pt}
+\setlength{\topsep}{0pt}
+\setlength{\headheight}{14pt}
+ 
+\sectionfont{\normalsize\textbf}
+
+\usepackage{fancyhdr}
+\pagestyle{fancyplain}
+\rhead[TIMOTHY OVERLY \thepage]{TIMOTHY OVERLY \thepage}
+\lhead[]{}
+\cfoot[]{}
+  
+  \let\oldthebibliography=\thebibliography
+  \let\endoldthebibliography=\endthebibliography
+  \renewenvironment{thebibliography}[1]{%
+    \begin{oldthebibliography}{#1}%
+      \setlength{\parskip}{0ex}%
+      \setlength{\itemsep}{0ex}%
+  }%
+  {%
+    \end{oldthebibliography}%
+  }
+  
+\begin{document}
+\titlepage
+\begin{center}
+\begin{huge}
+\textbf{TIMOTHY OVERLY}\\
+\end{huge}
+143 Chaucer Court\\
+Worthington, Ohio  43085\\
+timothy@overly.me\\
+513.225.1226\bigskip
+\end{center}
