@@ -1,0 +1,7 @@
+languages:
+  - java: 8
+  - groovy: 9
+  - ruby: 3
+  - javascript: 6
+frameworks:
+  - grails: 8
