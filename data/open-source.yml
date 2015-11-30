@@ -1,0 +1,20 @@
+- href: https://github.com/tgsoverly/truck-circuit
+  role: author
+  title: Truck Circuit
+  description: an arduino project with matching cicuit diagram for a halloween costume
+- href: github.com/tgsoverly/apply
+  role: author
+  title: Apply
+  description: a small tool that can be used as a test for developer resume submittal
+- href: https://github.com/spidasoftware/classpath-helper
+  role: author
+  title: Classpath Helper
+  description: series of script tools to help diagnose classpath issues in java jars/wars
+- href: https://github.com/spidasoftware/ssl-helper
+  role: author
+  title: SSL Helper
+  description: script to help generate self-signed certificates for apache tomcat and httpd
+- href: http://institute.lanl.gov/ei/software-and-data/SHMTools
+  role: contributor
+  title: SHM Tools
+  description: a package of engineering tools used in structural health monitoring
