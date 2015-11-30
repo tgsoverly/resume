@@ -1,0 +1,8 @@
+pushd tmp
+  latexmk cv.html
+  # latexmk development.html
+  # latexmk research.tex
+  mv cv.pdf ../dist/cv.pdf
+  # mv research.pdf ../dist/research.pdf
+  # mv development.pdf ../dist/development.pdf
+popd

@@ -28,8 +28,20 @@ module.exports = function(grunt) {
         dest: 'tmp/'
       }
     },
+    copy:{
+      main: {
+         files: [
+
+           // makes all src relative to cwd
+           {expand: true, cwd: 'tex/', src: ['bib/**'], dest: 'tmp/'},
+           {expand: true, cwd: 'tex/', src: ['garamond/**'], dest: 'tmp/'},
+           {expand: true, cwd: 'tex/', src: ['build-tex'], dest: 'tmp/'},
+           {expand: true, cwd: 'tex/', src: ['.latexmkrc'], dest: 'tmp/'},
+         ],
+       },
+    },
     exec: {
-      build_tex: "./build-tex"
+      build_tex: "sh tmp/build-tex"
     }
   });
 
@@ -37,8 +49,9 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-assemble');
   grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-exec');
+  grunt.loadNpmTasks('grunt-contrib-copy');
 
   // Default task(s).
-  grunt.registerTask('default', ['clean','assemble','exec']);
+  grunt.registerTask('default', ['clean','assemble','copy','exec']);
 
 };
