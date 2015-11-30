@@ -1,7 +1,126 @@
-languages:
-  - java: 8
-  - groovy: 9
-  - ruby: 3
-  - javascript: 6
-frameworks:
-  - grails: 8
+- section: Languages
+  items:
+  - name: Java
+    value: 8
+  - name: Groovy
+    value: 9
+  - name: Ruby
+    value: 3
+  - name: JavaScript
+    value: 7
+- section: Frameworks
+  items:
+  - name: Grails
+    value: 8
+  - name: EmberJS
+    value: 7
+  - name: ReactJS
+    value: 6
+  - name: NodeJS
+    value: 5
+  - name: Sinatra
+    value: 3
+  - name: Ruby on Rails
+    value: 3
+- section: Databases
+  items:
+  - name: PostgreSQL
+    value: 3
+  - name: Oracle
+    value: 3
+  - name: SQL Server
+    value: 3
+  - name: Redis
+    value: 3
+  - name: MySQL
+    value: 3
+  - name: MongoDB
+    value: 3
+- section: Build Systems
+  items:
+  - name: Maven
+    value: 8
+  - name: Ant
+    value: 4
+  - name: Ivy
+    value: 5
+  - name: Grunt
+    value: 7
+  - name: Rake
+    value: 2
+  - name: Gradle
+    value: 8
+- section: Test Systems
+  items:
+  - name: JUnit
+    value: 8
+  - name: Mokito
+    value: 4
+  - name: Jenkis
+    value: 5
+  - name: Jasmine
+    value: 7
+  - name: CircleCI
+    value: 2
+  - name: Travis
+    value: 8
+- section: Other Syntaxes
+  items:
+  - name: HTML
+    value: 8
+  - name: CSS
+    value: 4
+  - name: Markdown
+    value: 5
+  - name: SCSS
+    value: 7
+  - name: XML
+    value: 2
+  - name: JSON
+    value: 8
+  - name: LaTeX
+    value: 8
+- section: Deployment Servers
+  items:
+  - name: Tomcat
+    value: 8
+  - name: httpd
+    value: 6
+  - name: Google Cloud
+    value: 6
+  - name: Heroku
+    value: 2
+- section: Operating Systems
+  items:
+  - name: OS X
+    value: 8
+  - name: Linux
+    value: 7
+  - name: Windows
+    value: 5
+- section: Protocols
+  items:
+  - name: REST
+    value: 8
+  - name: SOAP
+    value: 7
+  - name: SSL
+    value: 5
+- section: Version Control
+  items:
+  - name: Git
+    value: 8
+  - name: Subversion
+    value: 7
+- section: Design Concepts
+  items:
+  - name: MVC
+    value: 8
+  - name: IoC
+    value: 7
+  - name: IoC
+    value: 7
+  - name: Agile
+    value: 7
+  - name: Scrum
+    value: 7

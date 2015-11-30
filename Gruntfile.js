@@ -9,13 +9,13 @@ module.exports = function(grunt) {
       options: {
         // assets: 'html/assets',
         partials: ['html/partials/**/*.hbs'],
-        // layoutdir: ['html/layouts'],
         flatten: true,
         data: ['data/*.{json,yml}']
       },
       html: {
         options: {
           partials: ['html/partials/**/*.hbs'],
+          layout: 'html/layouts/layout.hbs'
         },
         src: ['html/templates/*.hbs'],
         dest: 'dist/'

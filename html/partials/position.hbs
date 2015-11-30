@@ -2,9 +2,18 @@
 
 <div class="row">
   <div class="medium-6 columns">
-      {{position}}
+    <h3>{{position}}</h3>
   </div>
   <div class="medium-6 columns">
-      {{department}}
+      <h3>{{department}}</h3>
+  </div>
+</div>
+<div class="row">
+  <div class="small-12 columns">
+    <ul>
+      {{#each tasks}}
+        <li>{{this}}</li>
+      {{/each}}
+    </ul>
   </div>
 </div>
