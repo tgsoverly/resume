@@ -1,0 +1,8 @@
+{{#each this}}
+    <h2>{{this.section}}</h2>
+    <ul>
+      {{#each this.items}}
+        <li>{{this.name}}-{{this.value}}</li>
+      {{/each}}
+    </ul>
+{{/each}}
