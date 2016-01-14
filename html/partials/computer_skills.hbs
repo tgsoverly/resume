@@ -3,8 +3,10 @@
     <div class="large-4 medium-6 small-12 columns">
       <h2>{{this.section}}</h2>
       <ul>
-        {{#each this.items}}
-          <li>{{this.name}}-{{this.value}}</li>
+        {{#each this.items as |item|}}
+          <li>{{item.name}}
+            {{#dots item.value}}{{/dots}}
+          </li>
         {{/each}}
       </ul>
     </div>

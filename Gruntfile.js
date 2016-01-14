@@ -20,7 +20,8 @@ module.exports = function(grunt) {
         // assets: 'html/assets',
         partials: ['html/partials/**/*.hbs'],
         flatten: true,
-        data: ['data/*.{json,yml}']
+        data: ['data/*.{json,yml}'],
+        helpers: ['helpers/*'] 
       },
       html: {
         options: {
@@ -63,7 +64,12 @@ module.exports = function(grunt) {
             cwd: 'tex/',
             src: ['.latexmkrc'],
             dest: 'tmp/'
-          },
+          },{
+            expand: true,
+            cwd: 'node_modules/',
+            src: ['font-awesome/css/*', "font-awesome/fonts/*"],
+            dest: 'dist/assets/'
+          }
         ],
       },
     },

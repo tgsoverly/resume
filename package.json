@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/tgsoverly/resume#readme",
   "devDependencies": {
+    "font-awesome": "^4.5.0",
     "foundation-sites": "^6.1.1",
     "grunt": "^0.4.5",
     "grunt-assemble": "^0.4.0",
