@@ -2,8 +2,18 @@ module.exports = function(grunt) {
 
   // Project configuration.
   grunt.initConfig({
-    clean:{
-      build:["tmp", "dist"]
+    clean: {
+      build: ["tmp", "dist"]
+    },
+    sass: {
+      dist: {
+        files: {
+                'dist/assets/style.css': 'html/assets/style.scss'
+            },
+        options: {
+          loadPath: ['node_modules/foundation-sites/scss', 'html/assets']
+        }
+      }
     },
     assemble: {
       options: {
@@ -28,17 +38,34 @@ module.exports = function(grunt) {
         dest: 'tmp/'
       }
     },
-    copy:{
+    copy: {
       main: {
-         files: [
+        files: [
 
-           // makes all src relative to cwd
-           {expand: true, cwd: 'tex/', src: ['bib/**'], dest: 'tmp/'},
-           {expand: true, cwd: 'tex/', src: ['garamond/**'], dest: 'tmp/'},
-           {expand: true, cwd: 'tex/', src: ['build-tex'], dest: 'tmp/'},
-           {expand: true, cwd: 'tex/', src: ['.latexmkrc'], dest: 'tmp/'},
-         ],
-       },
+          // makes all src relative to cwd
+          {
+            expand: true,
+            cwd: 'tex/',
+            src: ['bib/**'],
+            dest: 'tmp/'
+          }, {
+            expand: true,
+            cwd: 'tex/',
+            src: ['garamond/**'],
+            dest: 'tmp/'
+          }, {
+            expand: true,
+            cwd: 'tex/',
+            src: ['build-tex'],
+            dest: 'tmp/'
+          }, {
+            expand: true,
+            cwd: 'tex/',
+            src: ['.latexmkrc'],
+            dest: 'tmp/'
+          },
+        ],
+      },
     },
     exec: {
       build_tex: "sh tmp/build-tex"
@@ -50,8 +77,9 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-exec');
   grunt.loadNpmTasks('grunt-contrib-copy');
+  grunt.loadNpmTasks('grunt-contrib-sass');
 
   // Default task(s).
-  grunt.registerTask('default', ['clean','assemble','copy','exec']);
+  grunt.registerTask('default', ['clean', 'sass', 'assemble', 'copy', 'exec']);
 
 };
