@@ -90,6 +90,18 @@
     value: 6
   - name: Heroku
     value: 2
+- section: Design Concepts
+  items:
+  - name: MVC
+    value: 8
+  - name: IoC
+    value: 7
+  - name: IoC
+    value: 7
+  - name: Agile
+    value: 7
+  - name: Scrum
+    value: 7
 - section: Operating Systems
   items:
   - name: OS X
@@ -111,16 +123,4 @@
   - name: Git
     value: 8
   - name: Subversion
-    value: 7
-- section: Design Concepts
-  items:
-  - name: MVC
-    value: 8
-  - name: IoC
-    value: 7
-  - name: IoC
-    value: 7
-  - name: Agile
-    value: 7
-  - name: Scrum
     value: 7

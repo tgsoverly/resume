@@ -1,6 +1,9 @@
 college: University of Cincinnati
-degree: Masters of Science
+department: Department of Mechanical, Industrial and Nuclear Engineering
+degree: Masters of Science in Mechanical Engineering
 year: 2007
 gpa: 3.8
 notes:
   - Structural Dynamics
+  - Advanced Vibrations
+  - Finite Element Techniques

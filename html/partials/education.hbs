@@ -1,12 +1,21 @@
+<h2>{{institution}}</h2>
+
 <div class="row">
-  {{#each this}}
-    <div class="large-4 medium-6 small-12 columns">
-      <h2>{{this.section}}</h2>
-      <ul>
-        {{#each this.items}}
-          <li>{{this.name}}-{{this.value}}</li>
-        {{/each}}
-      </ul>
-    </div>
-  {{/each}}
+  <div class="small-12 columns">
+    <h3>{{department}}</h3>
+  </div>
+</div>
+<div class="row">
+  <div class="small-12 columns">
+      <h3>{{degree}}</h3>
+  </div>
+</div>
+<div class="row">
+  <div class="small-12 columns">
+    <ul>
+      {{#each notes}}
+        <li>{{this}}</li>
+      {{/each}}
+    </ul>
+  </div>
 </div>

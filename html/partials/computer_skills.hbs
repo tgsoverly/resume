@@ -2,13 +2,16 @@
   {{#each this}}
     <div class="large-4 medium-6 small-12 columns">
       <h2>{{this.section}}</h2>
-      <ul>
         {{#each this.items as |item|}}
-          <li>{{item.name}}
-            {{#dots item.value}}{{/dots}}
-          </li>
+          <div class="row">
+            <div class="small-6 columns text-right">
+              {{item.name}}
+            </div>
+            <div class="small-6 columns">
+              {{#dots item.value}}{{/dots}}
+            </div>
+          </div>
         {{/each}}
-      </ul>
     </div>
   {{/each}}
 </div>
