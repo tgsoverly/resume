@@ -1,8 +1,12 @@
 <div class="row">
-  {{#each this}}
+  {{#each this as |skill index|}}
+    {{#row index}}
+      </div>
+      <div class="row">
+    {{/row}}
     <div class="large-4 medium-6 small-12 columns">
-      <h2>{{this.section}}</h2>
-        {{#each this.items as |item|}}
+      <h2>{{skill.section}}</h2>
+        {{#each skill.items as |item|}}
           <div class="row">
             <div class="small-6 columns text-right">
               {{item.name}}
@@ -13,5 +17,6 @@
           </div>
         {{/each}}
     </div>
-  {{/each}}
-</div>
+
+    {{/each}}
+  </div>
