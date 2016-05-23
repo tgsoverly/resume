@@ -14,7 +14,7 @@
   role: author
   title: SSL Helper
   description: script to help generate self-signed certificates for apache tomcat and httpd
-- href: http://institute.lanl.gov/ei/software-and-data/SHMTools
+- href: http://www.lanl.gov/projects/national-security-education-center/engineering/software/shm-data-sets-and-software.php
   role: contributor
   title: SHM Tools
   description: a package of engineering tools used in structural health monitoring
