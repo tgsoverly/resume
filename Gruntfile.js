@@ -8,8 +8,8 @@ module.exports = function(grunt) {
     sass: {
       dist: {
         files: {
-                'dist/assets/style.css': 'html/assets/style.scss'
-            },
+          'dist/assets/style.css': 'html/assets/style.scss'
+        },
         options: {
           loadPath: ['node_modules/foundation-sites/scss', 'html/assets']
         }
@@ -17,25 +17,24 @@ module.exports = function(grunt) {
     },
     assemble: {
       options: {
-        // assets: 'html/assets',
-        partials: ['html/partials/**/*.hbs'],
         flatten: true,
-        data: ['data/*.{json,yml}'],
-        helpers: ['helpers/*'] 
-      },
+        data: ['data/*.{json,yml}']
+        },
       html: {
         options: {
+          helpers: ['html/helpers/*'],
           partials: ['html/partials/**/*.hbs'],
           layout: 'html/layouts/layout.hbs'
         },
-        src: ['html/templates/*.hbs'],
+        src: ['templates/*.hbs'],
         dest: 'dist/'
       },
       tex: {
         options: {
+          helpers: ['tex/helpers/*'],
           partials: ['tex/partials/**/*.hbs'],
         },
-        src: ['tex/templates/*.hbs'],
+        src: ['templates/*.hbs'],
         dest: 'tmp/'
       }
     },
