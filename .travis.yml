@@ -3,7 +3,7 @@ node_js:
   - "4.1"
 before_install:
   - sudo apt-get -qq update
-  - sudo apt-get install -y texlive
+  # - sudo apt-get install -y texlive
 install:
   - npm install
   - gem install sass

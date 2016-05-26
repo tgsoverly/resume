@@ -73,7 +73,7 @@ module.exports = function(grunt) {
       },
     },
     exec: {
-      build_tex: "sh tmp/build-tex"
+      build_tex: "bash tmp/build-tex"
     }
   });
 
