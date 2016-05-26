@@ -1,5 +1,7 @@
 # My Resume
 
+[![Build Status](https://travis-ci.org/tgsoverly/resume.svg?branch=master)](https://travis-ci.org/tgsoverly/resume)
+
 Compile HTML and Latex files from templates and data.  I figured a resume for stuff I do should also speak to at least some of the things I care about: repeatability and maintainability.  Those are good things to say in speeches where you wave your hands about how everyone "else" doesn't care about the "important" stuff.
 
 The compiled html resume is [here](http://tgsoverly.github.io/resume/cv.html).
