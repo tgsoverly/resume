@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# This script was modified from http://www.steveklabnik.com/automatically_update_github_pages_with_travis_example/
+# Saved me lots of time, thanks Steve!
 set -o errexit -o nounset
 
 if [ "$TRAVIS_BRANCH" != "master" ]
