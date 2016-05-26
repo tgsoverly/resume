@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+  - "4.1"
+install:
+  - npm install
+script:
+  - grunt
+after_success:
+  - bash deploy.sh
+env:
+  global:
+    secure: gK/SfF/s+Rv4/cyjt/QIFNtXgiz8qvmGEiIVHI0eiwDl+MmjUv1GLsi3VRfUVzYoFrhrID9YBnJmJIeK80J9RJW7/5UBbfvnt5KkFcM/NXxguSQBzM2JvhDy7Xtt/QhuzYen/ynsWSZNkKG32TG1dXgBZmOGBJbFPyqqH5ESQIUD2LrqjtfJ8k7qKXKO267gdB1U79bjgsixIkjff067CnYRxMb46mNkF4trEYt51V+8pPJGjacCk4Fn52tZIPLS9kBEAnXsHOJHSAmNHjcOyj9QrOyC1yVmvNBFe0n5jvW/ktqzxS1Bnpixh/xycJxQ+9Pt1wgKcHM5Pw8IT6I/MTyEIYY00i9zVhOQxd9P+QvR1wj7rv0i44TKx6SyMaTpG2kN20pXfOvlWUgffMwWZvCclEOxe/zftP9V379BqNuUBzlAbsP9D817Q6k2tlhRsdlJHO/U5Z0EMWq+56imMAqJ2lI4WM4icBxSfmx0CJvgQM55eiOPCuA1aSeCKbpJKW2XRhroAGzl+DT5EQrmzUE0bhEkr+eb73o4teMzQi4ce9ExmFx0sfzT063RD5+hUS5CzN7yZraaPLqZ7WVywvpw8pKwqm06tOLkbgJzgEhxcUJEJM5bDUCs7MEmCM/9zgbsbLZhaaT2hP+0pttzZcTLe6pZ984S1YUqsuONaR0=
