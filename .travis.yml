@@ -5,6 +5,7 @@ install:
   - npm install
   - gem install sass
   - npm install grunt -g
+  - apt-get install texlive
 script:
   - grunt
 after_success:
