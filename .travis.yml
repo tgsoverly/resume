@@ -3,6 +3,8 @@ node_js:
   - "4.1"
 install:
   - npm install
+  - gem install sass
+  - npm install grunt -g
 script:
   - grunt
 after_success:
