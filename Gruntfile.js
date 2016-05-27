@@ -8,10 +8,10 @@ module.exports = function(grunt) {
     sass: {
       dist: {
         files: {
-          'dist/assets/style.css': 'html/assets/style.scss'
+          'dist/assets/style.css': 'templates/html/assets/style.scss'
         },
         options: {
-          loadPath: ['node_modules/foundation-sites/scss', 'html/assets']
+          loadPath: ['node_modules/foundation-sites/scss', 'templates/html/assets']
         }
       }
     },
@@ -22,17 +22,17 @@ module.exports = function(grunt) {
         },
       html: {
         options: {
-          helpers: ['html/helpers/*'],
-          partials: ['html/partials/**/*.hbs'],
-          layout: 'html/layouts/layout.hbs'
+          helpers: ['templates/html/helpers/*'],
+          partials: ['templates/html/partials/**/*.hbs'],
+          layout: 'templates/html/layouts/layout.hbs'
         },
         src: ['templates/*.hbs'],
         dest: 'dist/'
       },
       tex: {
         options: {
-          helpers: ['tex/helpers/*'],
-          partials: ['tex/partials/**/*.hbs'],
+          helpers: ['templates/tex/helpers/*'],
+          partials: ['templates/tex/partials/**/*.hbs'],
         },
         src: ['templates/*.hbs'],
         dest: 'tmp/'
@@ -45,22 +45,22 @@ module.exports = function(grunt) {
           // makes all src relative to cwd
           {
             expand: true,
-            cwd: 'tex/',
+            cwd: 'templates/tex/',
             src: ['bib/**'],
             dest: 'tmp/'
           }, {
             expand: true,
-            cwd: 'tex/',
+            cwd: 'templates/tex/',
             src: ['garamond/**'],
             dest: 'tmp/'
           }, {
             expand: true,
-            cwd: 'tex/',
+            cwd: 'templates/tex/',
             src: ['build-tex'],
             dest: 'tmp/'
           }, {
             expand: true,
-            cwd: 'tex/',
+            cwd: 'templates/tex/',
             src: ['.latexmkrc'],
             dest: 'tmp/'
           },{
