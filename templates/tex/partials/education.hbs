@@ -1,13 +1,15 @@
 \begin{tabular*}{6.6in}{@{\extracolsep{\fill}}lr}
 \vspace{-3mm} & \\
-\textbf{University of Cincinnati} & \textbf{Cincinnati, Ohio} \\
-\textit{Department of Mechanical, Industrial and Nuclear Engineering}&\\
+\textbf{ {{institution}} } & \textbf{Cincinnati, Ohio} \\
+\textit{ {{department}} }&\\
 \end{tabular*}
 \storestyleof{compactitem}
 \begin{listliketab}
 \begin{tabular}{ll}
-\textit{\textbf{M.S. in Mechanical Engineering - June 2007}} & \textit{\textbf{B.S. in Mechanical Engineering - June 2002}}  \\
-\ \textbullet \ Structural Dynamics/Advanced Vibrations  & \ \textbullet \ International Engineering Certificate\\
-\ \textbullet \ Finite Element Techniques & \bigskip
+\textit{\textbf{ {{degree}} - {{year}} }} &\\
+{{#each notes}}
+  \ \textbullet \ {{this}} &\\
+{{/each}}
+& \bigskip
 \end{tabular}
 \end{listliketab}
