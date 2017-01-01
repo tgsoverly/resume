@@ -5,15 +5,38 @@ module.exports.register = function(Handlebars, options, params) {
     //Since this would be a giant pain to do in latex because of the way columns
     //are formatted, going to just create the text in javascript and return
     let columnCount = 6;
-    let maxRows = _.maxBy(skills, function(s){ return s.items.length }).items.length
     let chunkedSkills = _.chunk(skills, columnCount);
 
     let text = ""
     _.each(chunkedSkills, function(chunkOfSkills){
+
+      let maxRows = _.maxBy(chunkOfSkills, function(s){ return s.items.length }).items.length
+      let rowIndex;
+      let columnIndex;
+
       //The skill name
       text += "\\begin{tabular}{"+Array(columnCount+1).join("l")+"}\n";
-      text += "\\textbf{"+_.map(chunkOfSkills, "section").join("} & \\textbf{")+"} \\\\\n";
+      let sections = _.map(chunkOfSkills, "section");
+      text += "\\textbf{"+sections.join(" } & \\textbf{ ")+" } \\\\\n";
       text += "\\hline\n";
+
+      //Do the rows first because that is how latex wants it, and it is different than html because
+      //it really does have to be on one line, not in elements on different lines.
+      for (rowIndex = 0; rowIndex < maxRows; rowIndex++) {
+        let row = [];
+        for(columnIndex = 0; columnIndex < chunkOfSkills.length; columnIndex++){
+            let items = chunkOfSkills[columnIndex].items
+            if(items.length>rowIndex){
+                //Add the skill name
+                row.push(items[rowIndex].name);
+            }else{
+               // This skill doesn't have this many rows
+               row.push("");
+            }
+        }
+        //Combine the row with the & deliminator for columns
+        text += row.join(" & ")+" \\\\\n";
+      }
       text += "\\end{tabular}\n"
       text += "\\smallskip\n"
 
