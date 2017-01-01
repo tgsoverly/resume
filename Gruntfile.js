@@ -26,7 +26,7 @@ module.exports = function(grunt) {
           partials: ['templates/html/partials/**/*.hbs'],
           layout: 'templates/html/layouts/layout.hbs'
         },
-        src: ['templates/*.hbs'],
+        src: ['templates/html/*.hbs'],
         dest: 'dist/'
       },
       tex: {
@@ -34,7 +34,7 @@ module.exports = function(grunt) {
           helpers: ['templates/tex/helpers/*'],
           partials: ['templates/tex/partials/**/*.hbs'],
         },
-        src: ['templates/*.hbs'],
+        src: ['templates/tex/*.hbs'],
         dest: 'tmp/'
       }
     },
