@@ -1,15 +1,8 @@
-\begin{tabular*}{6.6in}{@{\extracolsep{\fill}}lr}
-\vspace{-3mm} & \\
-\textbf{ {{institution}} } & \textbf{Cincinnati, Ohio} \\
-\textit{ {{department}} }&\\
-\end{tabular*}
-\storestyleof{compactitem}
-\begin{listliketab}
-\begin{tabular}{ll}
-\textit{\textbf{ {{degree}} - {{year}} }} &\\
+\textbf{ {{college}} }
+\textit{ {{department}} } \\
+\textit{\textbf{ {{degree}} - {{year}} }}
+\begin{compactitem}
 {{#each notes}}
-  \ \textbullet \ {{this}} &\\
-{{/each}}
-& \bigskip
-\end{tabular}
-\end{listliketab}
+  \item {{{this}}}
+{{/each}} \medskip
+\end{compactitem}
