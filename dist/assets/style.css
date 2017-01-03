@@ -3935,6 +3935,11 @@ h1 {
   margin-top: 2rem;
   border-bottom-color: #767676;
   border-bottom-style: solid;
+  border-bottom-width: 2px; }
+
+h2 {
+  border-bottom-color: #767676;
+  border-bottom-style: solid;
   border-bottom-width: 1px; }
 
 /*# sourceMappingURL=style.css.map */

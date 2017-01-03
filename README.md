@@ -18,7 +18,9 @@ Compiled Output:
 1. `npm install`
 1. `grunt`
 
-Still a work in progress because it really is just something that erks me and not something I need for a new job.
 # TODOs
 
+Still a work in progress because it really is just something that erks me and not something I need for a new job.
+
 1. Make the HTML look better
+1. Websites to the contact data
