@@ -11,5 +11,9 @@ tasks:
   - Implemented continuous integration testing, code review and feature development cycles to support a more robust development process
   - Tuned databases with more than five million entries for sub-second response times
   - Specified and implemented a server-based license system in Ruby on Rails
-  - Wrote a finite element analysis package to determine loading and stresses in utility pole structures
   - Programmed a graphical user interface in Java for the building, viewing and editing of utility pole structures
+  - Wrote a finite element analysis package, that included both linear and geometricically non-linear analysis, to determine loading and stresses in utility pole structures
+  # - Developed a finite element package for the the analysis of utility structures that included both linear and geometricically non-linear methods.  This package additionally modeled catenary wires, pre-stressed components, temperature affects, wind forces, ice loading and national standards to determine the total stresses in the system to determine factors of safety.
+  # - The primary architect for multicomponent service-oriented web applications in various framework. These applications made use of server-side MVC, client-side MVVM, relational and no-sql back-ends.
+  # - Managed the development team that was responsible for the development, maintenance and support of the company's software products.  Implemented with this team  a software process that included daily standup's, consistant code review, continuous integration, security reviews and repeatable automated deployments.
+  # - Served as the primary technical contact during designs and external customer interactions.
