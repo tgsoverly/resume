@@ -4,7 +4,9 @@
 
 Compile HTML and Latex files from templates and data.  
 
-I figured a resume for stuff I do should also speak to at least some of the things I care about: repeatability and maintainability.  I very occationally updated my resume and then had to generated it in different formats and probably reinstall latex, which on OS X is huge.
+I figured a resume for things in the computer field should at least demonstrate some ability to generate a document with some elegance and be repeatable and maintainable.  
+
+I very occationally updated my resume and then had to generate it a at least a couple formats and probably reinstall latex, which on OS X is huge.  Making sure they matched was time consuming.
 
 Compiled Output:
 
