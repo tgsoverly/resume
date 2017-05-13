@@ -23,7 +23,7 @@ I very occasionally updated my resume and then had to generate it a at least a c
 1. `npm install`
 1. `grunt`
 
-# Compiled Output:
+# Compiled Output
 
 The compiled output is pushed to the following locations each time a change is made and it builds properly on travis.
 
