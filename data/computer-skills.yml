@@ -66,6 +66,16 @@
     value: 8
   - name: Travis
     value: 6
+- section: Continous Integration
+  items:
+  - name: CircleCI
+    value: 8
+  - name: Travis CI
+    value: 7
+  - name: CodeCov
+    value: 6
+  - name: Jenkis
+    value: 4
 - section: Other Syntaxes
   items:
   - name: CSS
