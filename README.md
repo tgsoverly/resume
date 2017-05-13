@@ -6,12 +6,7 @@ Compile HTML and Latex files from templates and data.
 
 I figured a resume for things in the computer field should at least demonstrate some ability to generate a document with some elegance and be repeatable and maintainable.  
 
-I very occationally updated my resume and then had to generate it a at least a couple formats and probably reinstall latex, which on OS X is huge.  Making sure they matched was time consuming.
-
-Compiled Output:
-
-1. [HTML](http://tgsoverly.github.io/resume/cv.html)
-1. [PDF](http://tgsoverly.github.io/resume/cv.pdf)
+I very occasionally updated my resume and then had to generate it a at least a couple formats and probably reinstall latex, which on OS X is huge.  Making sure the different file type's content matched was time consuming.
 
 # Goals
 
@@ -23,14 +18,20 @@ Compiled Output:
 1. Make changes to data/templates
 1. Push to github.  This triggers a build on travis and a push to github pages.
 
-# Build
+# Build Locally
 
 1. `npm install`
 1. `grunt`
+
+# Compiled Output:
+
+The compiled output is pushed to the following locations each time a change is made and it builds properly on travis.
+
+1. [HTML](http://tgsoverly.github.io/resume/cv.html)
+1. [PDF](http://tgsoverly.github.io/resume/cv.pdf)
 
 # TODOs
 
 Still a work in progress because it really is just something that erks me and not something I need for a new job.
 
-1. Make the HTML look better
 1. Websites to the contact data
