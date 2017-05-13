@@ -6,18 +6,14 @@
   role: author
   title: Truck Circuit
   description: an arduino project with matching cicuit diagram for a halloween costume
-- href: github.com/tgsoverly/apply
+- href: https://github.com/tgsoverly/smart-things
   role: author
-  title: Apply
-  description: a small tool that can be used as a test for developer resume submittal
-- href: https://github.com/spidasoftware/classpath-helper
+  title: SmartThings
+  description: device handler to control a whole house fan
+- href: https://github.com/tgsoverly/dotfiles
   role: author
-  title: Classpath Helper
-  description: series of script tools to help diagnose classpath issues in java jars/wars
-- href: https://github.com/spidasoftware/ssl-helper
-  role: author
-  title: SSL Helper
-  description: script to help generate self-signed certificates for apache tomcat and httpd
+  title: Bash Helpers
+  description: series of scripts to make configuring a computer quick and consistent
 - href: http://www.lanl.gov/projects/national-security-education-center/engineering/software/shm-data-sets-and-software.php
   role: contributor
   title: SHM Tools
