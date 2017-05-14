@@ -1,24 +1,26 @@
 <h2>{{company}}</h2>
 
 <div class="row">
-  <div class="medium-6 columns">
-    <h3>{{department}}</h3>
-  </div>
-  <div class="medium-6 columns">
-    <h3>{{position}}</h3>
-  </div>
+    <div class="medium-6 columns">
+        <h3>{{department}}</h3>
+    </div>
+    <div class="medium-6 columns">
+        <h4>{{start}} to {{end}}</h4>
+    </div>
 </div>
-<div class="row">
-  <div class="small-12 columns">
-    <h4>{{start}} to {{end}}</h4>
-  </div>
-</div>
-<div class="row">
-  <div class="small-12 columns">
-    <ul>
-      {{#each tasks}}
-        <li>{{this}}</li>
-      {{/each}}
-    </ul>
-  </div>
-</div>
+{{#each positions as |position|}}
+    <div class="row">
+        <div class="medium-6 columns">
+            <h3>{{position.title}}</h3>
+        </div>
+    </div>
+    <div class="row">
+        <div class="small-12 columns">
+            <ul>
+                {{#each position.tasks as |task|}}
+                    <li>{{task}}</li>
+                {{/each}}
+            </ul>
+        </div>
+    </div>
+{{/each}}

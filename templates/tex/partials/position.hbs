@@ -1,9 +1,12 @@
 \begin{tabular*}{6.6in}{@{\extracolsep{\fill}}lr}
 \textbf{ {{company}} } & \textbf{ {{location}} }\\
-\textit{ {{position}}: {{department}} } & \textit{ {{start}} -- {{end}} }
+\textit{ {{department}} } & \textit{ {{start}} -- {{end}} }
 \end{tabular*}
-\begin{compactitem}
-{{#each tasks}}
-  \item {{{this}}}
-{{/each}} \medskip
-\end{compactitem}
+{{#each positions as |position|}}
+  {{position.title}}
+  \begin{compactitem}
+  {{#each position.tasks}}
+    \item {{{this}}}
+  {{/each}} \medskip
+  \end{compactitem}
+{{/each}}

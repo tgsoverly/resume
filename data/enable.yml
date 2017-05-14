@@ -1,9 +1,10 @@
 company: Enable Medical
 location: Cincinnati, Ohio
-position: Manufacturing, Research and Development Co-op
 department: Product Engineering
 start: June 1999
 end: August 2000
-tasks:
-  - Designed and constructed prototype devices for use in treating heart disease that led to a device being taken to market
-  - Performed primary testing and qualification before product release for both endoscopic and open surgery devices
+positions:
+  - title: Manufacturing, Research and Development Co-op
+    tasks:
+      - Designed and constructed prototype devices for use in treating heart disease that led to a device being taken to market
+      - Performed primary testing and qualification before product release for both endoscopic and open surgery devices
