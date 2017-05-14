@@ -40,7 +40,7 @@
     value: 3
   - name: SQL Server
     value: 3
-- section: Build Systems
+- section: Build Tools
   items:
   - name: Ant
     value: 4
@@ -54,32 +54,6 @@
     value: 8
   - name: Rake
     value: 2
-- section: Test Systems
-  items:
-  - name: CircleCI
-    value: 8
-  - name: Jasmine
-    value: 3
-  - name: Jenkis
-    value: 5
-  - name: JUnit
-    value: 8
-  - name: Mokito
-    value: 4
-  - name: Spock
-    value: 8
-  - name: Travis
-    value: 6
-- section: Continous Integration
-  items:
-  - name: CircleCI
-    value: 8
-  - name: CodeCov
-    value: 6
-  - name: Jenkis
-    value: 4
-  - name: Travis CI
-    value: 7
 - section: Other Syntaxes
   items:
   - name: CSS
@@ -96,7 +70,27 @@
     value: 7
   - name: XML
     value: 2
-- section: Deployment Systems
+- section: Testing Frameworks
+  items:
+  - name: Jasmine
+    value: 3
+  - name: JUnit
+    value: 8
+  - name: Mokito
+    value: 4
+  - name: Spock
+    value: 8
+- section: CI Systems
+  items:
+  - name: CircleCI
+    value: 8
+  - name: CodeCov
+    value: 6
+  - name: Jenkis
+    value: 4
+  - name: Travis CI
+    value: 7
+- section: Deployment Tools
   items:
   - name: Google Cloud
     value: 6
@@ -106,6 +100,8 @@
     value: 6
   - name: Tomcat
     value: 8
+  - name: NGINX
+    value: 4
 - section: Design Concepts
   items:
   - name: Agile

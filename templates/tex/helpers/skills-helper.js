@@ -4,7 +4,7 @@ module.exports.register = function(Handlebars, options, params) {
   Handlebars.registerHelper('skills', function(skills, options) {
     //Since this would be a giant pain to do in latex because of the way columns
     //are formatted, going to just create the text in javascript and return
-    let columnCount = 6;
+    let columnCount = 4;
     let chunkedSkills = _.chunk(skills, columnCount);
 
     let text = ""
@@ -15,7 +15,8 @@ module.exports.register = function(Handlebars, options, params) {
       let columnIndex;
 
       //The skill name
-      text += "\\begin{tabular}{"+Array(columnCount+1).join("l")+"}\n";
+      text += "\\begin{table}[h]"
+      text += "\\begin{tabular}{"+Array(columnCount+1).join("p{3.7cm}")+"}\n";
       let sections = _.map(chunkOfSkills, "section");
       text += "\\textbf{"+sections.join(" } & \\textbf{ ")+" } \\\\\n";
       text += "\\hline\n";
@@ -38,6 +39,7 @@ module.exports.register = function(Handlebars, options, params) {
         text += row.join(" & ")+" \\\\\n";
       }
       text += "\\end{tabular}\n"
+      text += "\\end{table}\n"
       text += "\\smallskip\n"
 
     })
