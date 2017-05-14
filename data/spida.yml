@@ -6,18 +6,18 @@ end: Present
 positions:
   - title: Web Developer
     tasks:
-      - Designed and programmed multicomponent service-oriented web applications using the various frameworks and design patterns
-      - Developed and implemented the interface for the building, viewing and editing of utility pole structures
-      - Wrapped external web services into common interfaces for a modular design
-      - Diagnosed and tuned large datastores for sub-second response times
+      - Designed and programmed multicomponent service-oriented web applications using the various frameworks and design patterns.
+      - Wrapped external web services into common interfaces for a modular designs.
+      - Diagnosed and tuned large datastores for sub-second response times.
   - title: Desktop Developer
     tasks:
-      - Wrote a finite element analysis package, that included both linear and geometricically non-linear analysis, to determine loading and stresses in utility pole structures. This package additionally modeled catenary wires, pre-stressed components, temperature affects, wind forces, ice loading and national standards to determine the total stresses in the system to determine factors of safety.
+      - Involved in all aspects of the development of the company's primary desktop application, including design, development and testing.
+      - Wrote a finite element analysis package, that accounted for geometricically non-linearity, catenary wires, pre-stressed components, temperature affects, to determine loading and stresses in utility pole structures.
   - title: Development Manager
     tasks:
-      - "Managed the team responsible for the development, maintenance and support of the company's software products"
+      - "Managed the team responsible for the development, maintenance and support of the company's software products."
       - Served as the primary technical contact during the design process and external customer interactions.
-      - Implemented continuous integration testing, code review and feature development cycles to support a more robust development process
+      - Implemented continuous integration testing, code review and feature development cycles to support a more robust development process.
 
   # TODO Thinking of more descriptive sentences:
   # - Developed a finite element package for the the analysis of utility structures that included both linear and geometricically non-linear methods.  This package additionally modeled catenary wires, pre-stressed components, temperature affects, wind forces, ice loading and national standards to determine the total stresses in the system to determine factors of safety.
