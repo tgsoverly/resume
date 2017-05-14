@@ -1,7 +1,11 @@
 - section: Languages
   items:
+  - name: Bash
+    value: 4
+  - name: C
+    value: 3
   - name: Groovy
-    value: 9
+    value: 10
   - name: JavaScript
     value: 7
   - name: Java
@@ -70,12 +74,12 @@
   items:
   - name: CircleCI
     value: 8
-  - name: Travis CI
-    value: 7
   - name: CodeCov
     value: 6
   - name: Jenkis
     value: 4
+  - name: Travis CI
+    value: 7
 - section: Other Syntaxes
   items:
   - name: CSS
@@ -83,7 +87,7 @@
   - name: HTML
     value: 8
   - name: JSON
-    value: 8
+    value: 10
   - name: LaTeX
     value: 8
   - name: Markdown
@@ -112,6 +116,8 @@
     value: 8
   - name: Scrum
     value: 7
+  - name: SOA
+    value: 6
 - section: Operating Systems
   items:
   - name: Linux
