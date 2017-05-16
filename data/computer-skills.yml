@@ -92,6 +92,8 @@
     value: 7
 - section: Deployment Tools
   items:
+  - name: Docker
+    value: 8
   - name: Google Cloud
     value: 6
   - name: Heroku
@@ -119,7 +121,7 @@
   - name: Linux
     value: 7
   - name: OS X
-    value: 8
+    value: 9
   - name: Windows
     value: 4
 - section: Protocols
@@ -132,7 +134,7 @@
     value: 5
 - section: Version Control
   items:
-  - name: Subversion
-    value: 5
   - name: Git
-    value: 8
+    value: 9
+  - name: Subversion
+    value: 4
