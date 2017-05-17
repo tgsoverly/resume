@@ -27,8 +27,10 @@ I very occasionally updated my resume and then had to generate it a at least a c
 
 The compiled output is pushed to the following locations each time a change is made and it builds properly on travis.
 
-1. [HTML](http://tgsoverly.github.io/resume/cv.html)
-1. [PDF](http://tgsoverly.github.io/resume/cv.pdf)
+1. [CV.html](http://tgsoverly.github.io/resume/cv.html)
+1. [CV.pdf](http://tgsoverly.github.io/resume/cv.pdf)
+1. [Development.html](http://tgsoverly.github.io/resume/development.html)
+1. [Development.pdf](http://tgsoverly.github.io/resume/development.pdf)
 
 # TODOs
 
