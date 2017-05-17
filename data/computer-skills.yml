@@ -56,8 +56,8 @@
     value: 2
 - section: Other Syntaxes
   items:
-  - name: CSS
-    value: 4
+  - name: CSS/SCSS
+    value: 7
   - name: HTML
     value: 8
   - name: JSON
@@ -66,8 +66,6 @@
     value: 8
   - name: Markdown
     value: 5
-  - name: SCSS
-    value: 7
   - name: XML
     value: 2
 - section: Testing Frameworks
@@ -106,14 +104,12 @@
     value: 4
 - section: Design Concepts
   items:
-  - name: Agile
-    value: 7
+  - name: Agile/Scrum
+    value: 6
   - name: IoC
     value: 7
   - name: MVC
     value: 8
-  - name: Scrum
-    value: 7
   - name: SOA
     value: 6
 - section: Operating Systems

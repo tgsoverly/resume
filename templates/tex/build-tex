@@ -3,9 +3,9 @@ set -o errexit -o nounset
 
 pushd tmp
   latexmk cv.html
-  # latexmk development.html
+  latexmk development.html
   # latexmk research.tex
   mv cv.pdf ../dist/cv.pdf
+  mv development.pdf ../dist/development.pdf
   # mv research.pdf ../dist/research.pdf
-  # mv development.pdf ../dist/development.pdf
 popd
