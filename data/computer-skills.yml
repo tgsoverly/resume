@@ -17,10 +17,10 @@
   - name: EmberJS
     value: 7
   - name: Grails
-    value: 8
+    value: 9
   - name: NodeJS
     value: 5
-  - name: ReactJS
+  - name: React
     value: 4
   - name: Ruby on Rails
     value: 2
