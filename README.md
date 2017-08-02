@@ -10,6 +10,7 @@ I very occasionally updated my resume and then had to generate it a at least a c
 
 # Goals
 
+1. See how the client looks
 1. Make it easy to have the same information in multiple formats, because copy/pasting haunts me.
 1. Automatically deploy the results some place for people to find, if it fails to deploy I get a travis failure.
 
