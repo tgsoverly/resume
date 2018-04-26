@@ -1,0 +1,13 @@
+company: Root Insurance
+location: Columbus, Ohio
+department: Engineering
+start: July 2017
+end: Present
+positions:
+  - title: Senior Software Developer
+    tasks:
+      - Implemented features acrross the full stack, from the Rails backend systems through to the React client side application.
+  - title: Engineering Lead
+    tasks:
+      - Oversay the work and reviewed the code of members of my team during the weekly sprint cycles.
+      - Triaged bugs and maintained systems during the weekly rotations.
