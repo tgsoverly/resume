@@ -4,10 +4,16 @@ department: Engineering
 start: July 2017
 end: Present
 positions:
-  - title: Senior Software Developer
+  - title: Senior Engineering Manager
     tasks:
-      - Implemented features acrross the full stack, from the Rails backend systems through to the React client side application.
+      - Maintained insight and ensured progress of the four engineering teams deliverables that I manage.
+      - Coached directly and through other leaders the approximatly 30 engineers in my organization.
+      - Implemented multiple processes that minimized redudent work, ensured critcal issues were addressed, and balanced immediate and long term needs.
   - title: Engineering Lead
     tasks:
-      - Oversay the work and reviewed the code of members of my team during the weekly sprint cycles.
+      - Lead the team that implemented our in-house claims system and imported existing claims from and external vendor in a three month window.
+      - Oversaw the work and reviewed the code of members of my team during the weekly sprint cycles.
       - Triaged bugs and maintained systems during the weekly rotations.
+  - title: Senior Software Developer
+    tasks:
+      - Implemented features across the full stack, from the Rails backend systems through to the React client side application.

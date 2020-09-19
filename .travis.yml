@@ -1,17 +1,23 @@
 language: node_js
 node_js:
-  - "6.9"
+- 14.11.0
 before_install:
-  - sudo apt-get -qq update
-  - sudo apt-get install -y texlive texlive-latex-extra texlive-bibtex-extra latexmk
+- sudo apt-get -qq update
+- sudo apt-get install -y texlive texlive-latex-extra texlive-bibtex-extra latexmk
 install:
-  - npm install
-  - gem install sass
-  - npm install grunt -g
+- yarn install
+- gem install sass
 script:
-  - grunt
-after_success:
-  - bash deploy.sh
+- yarn run grunt
+deploy:
+  provider: pages
+  local_dir: dist
+  skip_cleanup: true
+  github_token: $GH_TOKEN
+  keep_history: true
+  verbose: true
+  on:
+    branch: master
 env:
   global:
-    secure: gK/SfF/s+Rv4/cyjt/QIFNtXgiz8qvmGEiIVHI0eiwDl+MmjUv1GLsi3VRfUVzYoFrhrID9YBnJmJIeK80J9RJW7/5UBbfvnt5KkFcM/NXxguSQBzM2JvhDy7Xtt/QhuzYen/ynsWSZNkKG32TG1dXgBZmOGBJbFPyqqH5ESQIUD2LrqjtfJ8k7qKXKO267gdB1U79bjgsixIkjff067CnYRxMb46mNkF4trEYt51V+8pPJGjacCk4Fn52tZIPLS9kBEAnXsHOJHSAmNHjcOyj9QrOyC1yVmvNBFe0n5jvW/ktqzxS1Bnpixh/xycJxQ+9Pt1wgKcHM5Pw8IT6I/MTyEIYY00i9zVhOQxd9P+QvR1wj7rv0i44TKx6SyMaTpG2kN20pXfOvlWUgffMwWZvCclEOxe/zftP9V379BqNuUBzlAbsP9D817Q6k2tlhRsdlJHO/U5Z0EMWq+56imMAqJ2lI4WM4icBxSfmx0CJvgQM55eiOPCuA1aSeCKbpJKW2XRhroAGzl+DT5EQrmzUE0bhEkr+eb73o4teMzQi4ce9ExmFx0sfzT063RD5+hUS5CzN7yZraaPLqZ7WVywvpw8pKwqm06tOLkbgJzgEhxcUJEJM5bDUCs7MEmCM/9zgbsbLZhaaT2hP+0pttzZcTLe6pZ984S1YUqsuONaR0=
+    secure: aV6/0AVamRrlRUKNlao8pk2sqBbMsl0HOXbvOwDVsUhDgaxDpX+xGLdWrBiAd3KySCel9WzGCunogKfprpfGHyqCtw46zkjn0EBPyANRLYswvT6lvzSi5RA1tdYPD5q32114enojZUHPzkqCmVraNu2GHw2Fr7dH8AE5e2FqV6sI/E09VtibkdyabQAiXXzg4aktJEFzFef6vfRKTzZxhn9wRgh6h0994eMcLFdCe70kBcyzpT3bKC9ZR/DmS9fBjSjPkun5iupZpfoWFBRqnS3Z0smeA0/a5H4C0E39cwANVsAnbo8Xkj1DBEfg2UzCFA/+jWe8Qj09l/q9aU7pRBnjcMVVZSFYU3GhI6mhyGflxyBtmf5VxKsyj1usgL5Tu3rSWywcT043KFA6LPsak4MOyyDuGDo9LH9qJAF1VSx7WZX0Lxc/BXyZdJMKwOgurZnNoQfpARywPiS5n+mysMQ3KwJgvjVqm1joG12wrQnWruaBKjL2qqa60zcBOCtQOwh5HnIM84Dhqgf5wDBwgNJIgP0TmHb4cfIr5+T5H6aT7vk4P3pvMHcbqkCXNxh+RQaN91w+GIsWySZ5p3QQUKX7GegHLSn6JItR0NGAWdhRPd/sZhDulmF9S9qER3MbIB0qnyTs3cbD6HNXj7T4KMp4gdmFjl5FngB+pd8NYAw=
