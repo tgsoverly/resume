@@ -6,14 +6,15 @@ end: Present
 positions:
   - title: Senior Engineering Manager
     tasks:
-      - Maintained insight and ensured progress of the four engineering teams deliverables that I manage.
-      - Coached directly and through other leaders the approximatly 30 engineers in my organization.
-      - Implemented multiple processes that minimized redudent work, ensured critcal issues were addressed, and balanced immediate and long term needs.
+      - Maintained insight and ensured the progress of four engineering teams' deliverables.
+      - Coached directly and through other leaders the 25+ engineers in my organization.
+      - Implemented multiple processes that minimized redundant work, ensured critical issues were addressed, and balanced immediate and long-term needs.
+      - Set the technical direction and vetted overall architecture improvements of my functional group.
   - title: Engineering Lead
     tasks:
-      - Lead the team that implemented our in-house claims system and imported existing claims from and external vendor in a three month window.
+      - Lead the team that implemented our in-house claims system and imported existing claims from an external vendor in a three-month window.
       - Oversaw the work and reviewed the code of members of my team during the weekly sprint cycles.
       - Triaged bugs and maintained systems during the weekly rotations.
   - title: Senior Software Developer
     tasks:
-      - Implemented features across the full stack, from the Rails backend systems through to the React client side application.
+      - Implemented features across the full stack, from the Rails backend systems through to the React client-side application.

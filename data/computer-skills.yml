@@ -11,21 +11,23 @@
   - name: Java
     value: 8
   - name: Ruby
-    value: 3
+    value: 6
 - section: Frameworks
   items:
   - name: EmberJS
-    value: 7
+    value: 6
   - name: Grails
     value: 9
   - name: NodeJS
     value: 5
   - name: React
-    value: 4
+    value: 6
   - name: Ruby on Rails
-    value: 2
+    value: 7
   - name: Sinatra
     value: 1
+  - name: Vue.js
+    value: 5
 - section: Databases
   items:
   - name: MySQL
@@ -70,16 +72,20 @@
     value: 2
 - section: Testing Frameworks
   items:
+  - name: Mokito
+    value: 4
   - name: Jasmine
     value: 3
   - name: JUnit
     value: 8
-  - name: Mokito
-    value: 4
+  - name: RSpec
+    value: 7
   - name: Spock
     value: 8
 - section: CI Systems
   items:
+  - name: BuildKite
+    value: 8
   - name: CircleCI
     value: 8
   - name: CodeCov
@@ -87,9 +93,11 @@
   - name: Jenkis
     value: 4
   - name: Travis CI
-    value: 7
+    value: 6
 - section: Deployment Tools
   items:
+  - name: AWS
+    value: 6
   - name: Docker
     value: 8
   - name: Google Cloud
@@ -98,10 +106,10 @@
     value: 2
   - name: httpd
     value: 6
-  - name: Tomcat
-    value: 8
   - name: NGINX
     value: 4
+  - name: Tomcat
+    value: 8
 - section: Design Concepts
   items:
   - name: Agile/Scrum
@@ -122,6 +130,8 @@
     value: 4
 - section: Protocols
   items:
+  - name: GraphQL
+    value: 7
   - name: REST
     value: 8
   - name: SOAP

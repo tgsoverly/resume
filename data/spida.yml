@@ -13,10 +13,10 @@ positions:
   - title: Desktop Developer
     tasks:
       - Involved in all aspects of the development of the company's primary desktop application, including design, development, and testing.
-      - Wrote a finite element analysis package, that accounted for geometric non-linearities, catenary wires, pre-stressed components, and temperature affects to determine loading and stresses in utility pole structures.
-  - title: Development Manager
+      - Wrote a finite element analysis package, that accounted for geometric non-linearities, catenary wires, pre-stressed components, and temperature effects to determine loading and stresses in utility pole structures.
+  - title: Head of Software Development
     tasks:
-      - "Managed the team responsible for the development, maintenance and support of the company's software products."
+      - "Managed the team responsible for the development, maintenance, and support of the company's software products."
       - Served as the primary technical contact for internal design processes and external customer interactions.
       - Implemented continuous integration testing, code review, and feature development cycles to support a more robust development process.
 
