@@ -1,31 +1,31 @@
 - section: Languages
   items:
   - name: Bash
-    value: 4
+    value: 6
   - name: C
     value: 3
   - name: Groovy
-    value: 10
+    value: 9
   - name: JavaScript
     value: 7
   - name: Java
     value: 8
   - name: Ruby
-    value: 6
+    value: 10
 - section: Frameworks
   items:
   - name: EmberJS
     value: 6
   - name: Grails
-    value: 9
+    value: 8
   - name: NodeJS
     value: 5
   - name: React
     value: 6
   - name: Ruby on Rails
-    value: 7
-  - name: Sinatra
-    value: 1
+    value: 8
+  - name: Spring
+    value: 6
   - name: Vue.js
     value: 5
 - section: Databases
@@ -37,7 +37,7 @@
   - name: Oracle
     value: 3
   - name: PostgreSQL
-    value: 8
+    value: 9
   - name: Redis
     value: 3
   - name: SQL Server
@@ -50,12 +50,10 @@
     value: 8
   - name: Grunt
     value: 7
-  - name: Ivy
-    value: 5
   - name: Maven
     value: 8
   - name: Rake
-    value: 2
+    value: 4
 - section: Other Syntaxes
   items:
   - name: CSS/SCSS
@@ -79,7 +77,7 @@
   - name: JUnit
     value: 8
   - name: RSpec
-    value: 7
+    value: 8
   - name: Spock
     value: 8
 - section: CI Systems
@@ -88,8 +86,8 @@
     value: 8
   - name: CircleCI
     value: 8
-  - name: CodeCov
-    value: 6
+  - name: Github
+    value: 9
   - name: Jenkis
     value: 4
   - name: Travis CI
@@ -103,7 +101,7 @@
   - name: Google Cloud
     value: 6
   - name: Heroku
-    value: 2
+    value: 8
   - name: httpd
     value: 6
   - name: NGINX
@@ -119,7 +117,7 @@
   - name: MVC
     value: 8
   - name: SOA
-    value: 6
+    value: 8
 - section: Operating Systems
   items:
   - name: Linux
@@ -127,15 +125,15 @@
   - name: OS X
     value: 9
   - name: Windows
-    value: 4
+    value: 5
 - section: Protocols
   items:
   - name: GraphQL
-    value: 7
-  - name: REST
     value: 8
+  - name: REST
+    value: 9
   - name: SOAP
-    value: 3
+    value: 4
   - name: SSL
     value: 5
 - section: Version Control

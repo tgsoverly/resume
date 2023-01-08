@@ -1,0 +1,12 @@
+company: Root Insurance
+location: Columbus, Ohio
+department: Engineering
+start: Aug 2021
+end: Present
+positions:
+  - title: Director of Engineering
+    tasks:
+      - Evolved a minimialy viable product from launch to a reliably maintained and deployed application
+      - Made amd implemented key descisions to migrate backend systems to increase developer productivity
+      - Directly developed features in partnership with Product Managers
+      - Implemented many core team processes including interviews, retros, code reviews, standups, and showcases.
