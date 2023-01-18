@@ -1,10 +1,10 @@
 # My Resume
 
-[![Build Status](https://travis-ci.org/tgsoverly/resume.svg?branch=master)](https://travis-ci.org/tgsoverly/resume)
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/tgsoverly/resume/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/tgsoverly/resume/tree/main)
 
-Compile HTML and Latex files from templates and data.  
+Compile HTML and Latex files from templates and data.
 
-I figured a resume for things in the computer field should at least demonstrate some ability to generate a document with some elegance and be repeatable and maintainable.  
+I figured a resume for things in the computer field should at least demonstrate some ability to generate a document with some elegance and be repeatable and maintainable.
 
 I very occasionally updated my resume and then had to generate it a at least a couple formats and probably reinstall latex, which on OS X is huge.  Making sure the different file type's content matched was time consuming.
 
