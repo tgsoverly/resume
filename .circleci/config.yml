@@ -1,0 +1,29 @@
+version: 2.1
+orbs:
+  gh-pages: sugarshin/gh-pages@1.0.1
+jobs:
+  build:
+    docker:
+      - image: cimg/node:14.18.1
+    steps:
+      - checkout
+      - run:
+          name: "Update deps"
+          command: sudo apt-get -qq update
+      - run:
+          name: "Install deps"
+          command: sudo apt-get install -y texlive texlive-latex-extra texlive-bibtex-extra latexmk ruby-dev
+      - run:
+          name: "Install other deps"
+          command: yarn install && sudo gem install sass
+      - run:
+          name: "Build"
+          command: yarn run grunt
+      - gh-pages/deploy:
+          setup-git: true
+          ssh-fingerprints: "01:bd:65:51:17:08:ed:e5:e8:24:fa:c6:55:9a:7d:d9"
+
+workflows:
+  build-workflow:
+    jobs:
+      - build
