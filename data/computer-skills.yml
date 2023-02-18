@@ -16,6 +16,8 @@
     value: 10
 - section: Frameworks
   items:
+  - name: Django
+    value: 5
   - name: EmberJS
     value: 6
   - name: Grails
