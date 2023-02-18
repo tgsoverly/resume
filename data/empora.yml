@@ -6,7 +6,7 @@ end: Present
 positions:
   - title: Director of Engineering
     tasks:
+      - Architected and directly developed product features using Ruby on Rails and EmberJS.
       - Evolved a minimal viable product from launch to a reliably maintained and deployed application.
-      - Directly developed features in partnership with Product Managers.
       - Made and implemented key decisions to migrate backend systems to increase developer productivity.
       - Implemented core team processes including interviews, retros, code reviews, standups, and showcases.

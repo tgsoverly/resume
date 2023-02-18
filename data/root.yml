@@ -17,4 +17,4 @@ positions:
       - Triaged bugs and maintained systems during the weekly rotations.
   - title: Senior Software Developer
     tasks:
-      - Implemented features across the full stack, from the Rails backend systems through to the React client-side application.
+      - Implemented features across the full stack, from the Ruby on Rails backend through to the React client-side application.
