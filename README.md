@@ -6,17 +6,17 @@ Compile HTML and Latex files from templates and data.
 
 I figured a resume for things in the computer field should at least demonstrate some ability to generate a document with some elegance and be repeatable and maintainable.
 
-I very occasionally updated my resume and then had to generate it a at least a couple formats and probably reinstall latex, which on OS X is huge.  Making sure the different file type's content matched was time consuming.
+I very occasionally updated my resume and then had to generate it in at least a couple of formats and probably reinstall LaTeX, which on OS X is huge.  Ensuring the content of different file types matched was time-consuming.
 
 # Goals
 
 1. Make it easy to have the same information in multiple formats, because copy/pasting haunts me.
-1. Automatically deploy the results some place for people to find, if it fails to deploy I get a travis failure.
+1. Automatically deploy the results somewhere for people to find. 
 
 # Update Process
 
 1. Make changes to data/templates
-1. Push to github.  This triggers a build on travis and a push to github pages.
+1. Push to GitHub.  This triggers a build on actions and a push to GitHub Pages.
 
 # Build Locally
 
@@ -25,7 +25,7 @@ I very occasionally updated my resume and then had to generate it a at least a c
 
 # Compiled Output
 
-The compiled output is pushed to the following locations each time a change is made and it builds properly on travis.
+The compiled output is pushed to the following locations each time a change is made, and it builds properly in actions.
 
 1. [CV.html](http://tgsoverly.github.io/resume/cv.html)
 1. [CV.pdf](http://tgsoverly.github.io/resume/cv.pdf)
